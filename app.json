@@ -33,6 +33,33 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location to add GPS coordinates to photos for forensic documentation.",
+          "locationAlwaysPermission": "Allow $(PRODUCT_NAME) to use your location to add GPS coordinates to photos for forensic documentation.",
+          "locationWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location to add GPS coordinates to photos for forensic documentation.",
+          "isIosBackgroundLocationEnabled": false,
+          "isAndroidBackgroundLocationEnabled": false,
+          "isAndroidForegroundServiceEnabled": false
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to save photos to your gallery for documentation purposes.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos to your gallery for documentation purposes.",
+          "isAccessMediaLocationEnabled": true
+        }
       ]
     ],
     "experiments": {
