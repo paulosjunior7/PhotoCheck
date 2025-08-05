@@ -21,19 +21,25 @@ PhotoCheck é um aplicativo profissional de câmera desenvolvido especificamente
 - 🔍 **Múltiplas Lentes**: Suporte a zoom ótico (0.5x, 1x, 2x)
 - 📱 **Interface Profissional**: Design otimizado para uso técnico
 
-## 🚀 Como Usar
+## 🚀 Como Baixar e Usar
 
-### Instalação via Expo Go
+### 📱 Download Direto (Usuários Finais)
 
-1. Instale o [Expo Go](https://expo.dev/go) no seu dispositivo
-2. Escaneie o QR code do projeto ou acesse via link
-3. Permita acesso à câmera, localização e galeria
+**Link direto para download:**
+🔗 **[BAIXAR PHOTOCHECK](https://expo.dev/@paulosjunior7/photocheck)**
 
-### Desenvolvimento Local
+1. **Instale o [Expo Go](https://expo.dev/go)** no seu dispositivo (gratuito)
+2. **Clique no link acima** ou escaneie o QR code na página
+3. **Permita acesso** à câmera, localização e galeria
+4. **Pronto para usar!**
+
+📖 **[Guia completo de instalação](./COMO_BAIXAR.md)**
+
+### 💻 Desenvolvimento Local
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/photocheck.git
+git clone https://github.com/paulosjunior7/photocheck.git
 
 # Instale as dependências
 cd photocheck
@@ -82,4 +88,5 @@ Desenvolvido com ❤️ para profissionais que precisam de documentação fotogr
 ---
 
 **📧 Contato:** seu.email@exemplo.com  
-**🔗 GitHub:** [github.com/seu-usuario/photocheck](https://github.com/seu-usuario/photocheck)
+**🔗 GitHub:** [github.com/paulosjunior7/photocheck](https://github.com/paulosjunior7/photocheck)
+!Gvt23pj123@
