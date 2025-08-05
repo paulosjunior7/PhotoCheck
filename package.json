@@ -2,13 +2,39 @@
   "name": "photocheck",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "description": "App de câmera forense profissional para documentação fotográfica",
+  "keywords": [
+    "camera",
+    "forensic",
+    "gps",
+    "photography",
+    "documentation",
+    "react-native",
+    "expo"
+  ],
+  "author": {
+    "name": "Paulo Soares",
+    "email": "paulosjunior7@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulosjunior7/photocheck.git"
+  },
+  "homepage": "https://github.com/paulosjunior7/photocheck#readme",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios",
+    "build:all": "eas build --platform all",
+    "submit:android": "eas submit --platform android",
+    "submit:ios": "eas submit --platform ios",
+    "publish": "expo publish"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",

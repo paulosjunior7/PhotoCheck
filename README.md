@@ -1,50 +1,85 @@
-# Welcome to your Expo app 👋
+# PhotoCheck - App de Câmera Forense
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **App profissional para documentação fotográfica em laudos e perícias**
 
-## Get started
+[![Expo](https://img.shields.io/badge/Expo-v53.0-blue.svg)](https://expo.dev)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.79-green.svg)](https://reactnative.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-v5.8-blue.svg)](https://www.typescriptlang.org/)
 
-1. Install dependencies
+## 📸 Sobre o App
 
-   ```bash
-   npm install
-   ```
+PhotoCheck é um aplicativo profissional de câmera desenvolvido especificamente para documentação fotográfica em laudos técnicos, perícias e documentação jurídica. O app captura fotos com overlay de informações forenses permanentes, incluindo GPS, data/hora e metadados EXIF completos.
 
-2. Start the app
+## ✨ Funcionalidades Principais
 
-   ```bash
-   npx expo start
-   ```
+- 📸 **Captura Dupla**: Foto original + foto com overlay forense
+- 📍 **GPS de Alta Precisão**: Coordenadas com 6 casas decimais
+- 🕐 **Timestamp Imutável**: Data/hora nos metadados EXIF
+- 🗺️ **Endereço Reverso**: Conversão automática GPS → endereço
+- 📋 **Overlay Configurável**: Posição e elementos personalizáveis
+- 💾 **Organização Automática**: Álbum dedicado "PhotoCheck"
+- 🔍 **Múltiplas Lentes**: Suporte a zoom ótico (0.5x, 1x, 2x)
+- 📱 **Interface Profissional**: Design otimizado para uso técnico
 
-In the output, you'll find options to open the app in a
+## 🚀 Como Usar
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Instalação via Expo Go
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Instale o [Expo Go](https://expo.dev/go) no seu dispositivo
+2. Escaneie o QR code do projeto ou acesse via link
+3. Permita acesso à câmera, localização e galeria
 
-## Get a fresh project
-
-When you're ready, run:
+### Desenvolvimento Local
 
 ```bash
-npm run reset-project
+# Clone o repositório
+git clone https://github.com/seu-usuario/photocheck.git
+
+# Instale as dependências
+cd photocheck
+npm install
+
+# Inicie o servidor de desenvolvimento
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📱 Capturas de Tela
 
-## Learn more
+| Câmera Principal                            | Configurações                    | Overlay Forense                 |
+| ------------------------------------------- | -------------------------------- | ------------------------------- |
+| Interface limpa com controles profissionais | Configuração completa do overlay | Informações permanentes na foto |
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🛠️ Tecnologias
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **React Native** + **Expo SDK 53**
+- **TypeScript** para tipagem segura
+- **expo-camera** - Captura profissional
+- **expo-location** - GPS de alta precisão
+- **expo-media-library** - Gerenciamento de fotos
+- **react-native-view-shot** - Captura de overlay
 
-## Join the community
+## 📋 Permissões Necessárias
 
-Join our community of developers creating universal apps.
+- **Câmera**: Para captura de fotos
+- **Localização**: Para coordenadas GPS
+- **Galeria**: Para salvar fotos documentadas
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🔒 Privacidade
+
+- Todos os dados permanecem no dispositivo
+- Não há coleta de informações pessoais
+- GPS usado apenas para metadados das fotos
+- Código aberto para transparência total
+
+## 📄 Licença
+
+MIT License - veja [LICENSE](./LICENSE) para detalhes.
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido com ❤️ para profissionais que precisam de documentação fotográfica confiável.
+
+---
+
+**📧 Contato:** seu.email@exemplo.com  
+**🔗 GitHub:** [github.com/seu-usuario/photocheck](https://github.com/seu-usuario/photocheck)
